@@ -1,0 +1,22 @@
+{
+  "name": "battleships",
+  "description": "An awesome Javascript game",
+  "main": "app.js",
+  "authors": [
+    "Marwzoor"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Marwzoor/Battleships",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "phaser": "~2.4.4"
+  }
+}
