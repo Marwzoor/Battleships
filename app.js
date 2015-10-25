@@ -3,9 +3,12 @@ var app = express();
 
 app.use(express.static('public'));
 
-// app.get('/', function (req, res) {
+app.set('view engine', 'jade');
+app.set('views', 'views');
 
-// });
+app.get('/', function (req, res) {
+    return res.render('index');
+});
 
 var server = app.listen(3000, function () {
     var host = server.address().address;
